@@ -1,0 +1,19 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  color: #373fff;
+}
+
+.input {
+  width: auto;
+  height: 5em;
+  font-size: 5vmin;
+  text-align: center;
+}
+.input::placeholder {
+  font-size: 5vmin;
+  text-align: center;
+}
