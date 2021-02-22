@@ -12,11 +12,6 @@ let startGeneration = (startNum, endNum) => {
     }
   output.style.height = "auto"
   navigator.clipboard.writeText(output.value)
-//   .then(function() {
-//   console.log('Async: Copying to clipboard was successful!');
-// }, function(err) {
-//   console.error('Async: Could not copy text: ', err);
-// });
 }
 
 
